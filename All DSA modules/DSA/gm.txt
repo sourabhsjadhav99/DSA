@@ -1,0 +1,88 @@
+Hitesh Motwani12:40 AM
+Number of Islands
+Flood Fill
+Cycle in a Matrix
+Hitesh Motwani12:41 AM
+Squaring a Sorted Array
+Dutch National Flag Problem
+Minimum Window Sort
+Hitesh Motwani12:43 AM
+Middle of the LinkedList
+Happy Number
+Cycle in a Circular Arra
+Nalla Srinaveen12:44 AM
+https://forms.gle/UH84dJthNjZdyyRZ7
+feedback form
+Aadhi Manchi12:44 AM
+https://docs.google.com/spreadsheets/d/1D_cyEUQrNFGJ4CW1lTd1FqQdwZfK3NB8ejHr2ru8U-Y/edit#gid=0
+Hitesh Motwani12:44 AM
+Find all Missing Numbers
+Find all Duplicate Numbers
+Find the First K Missing Positive Numbers
+Hitesh Motwani12:48 AM
+relevel
+Hitesh Motwani12:51 AM
+Binary Tree Level Order Traversal
+Minimum Depth of a Binary Tree
+Connect Level Order Siblings
+BFS
+String Permutations by changing case
+Unique Generalized Abbreviations
+Hitesh Motwani12:52 AM
+DFS
+https://www.youtube.com/playlist?list=PLrClazTqVpJnqJ76GPyMu5jpFwSBjkAhw
+Hitesh Motwani12:53 AM
+code step by step
+Aadhi Manchi12:54 AM
+https://youtu.be/EHCGAZBbB88
+for the sliding window sir
+Hitesh Motwani12:55 AM
+If we are dealing with
+top/maximum/minimum/closest
+'K' elements among 'N' elements, we
+will be using a Heap.
+Hitesh Motwani12:58 AM
+If the given input is a sorted array
+or a list, we will either be using
+Binray Search or the Two Pointers
+strategy.
+If we need to try all combinations
+(or permutations) of the input, we
+can either use Backtracking or
+Breadth First Search.
+Aadhi Manchi12:59 AM
+sir send it in chat sir
+Hitesh Motwani1:06 AM
+Most of the questions related to
+Trees or Graphs can be solved
+either through Breadth First
+Search or Depth First Search.
+Hitesh Motwani1:07 AM
+namaste javascript
+Hitesh Motwani1:09 AM
+Every recursive solution can be
+converted to an iterative solution
+using a Stack.
+Nalla Srinaveen1:10 AM
+hitesh speak in english
+Hitesh Motwani1:11 AM
+For a problem involving arrays, if
+there exists a solution in O(n^2)
+time and O(1) space, there must
+exist two other solutions: 1) Using a
+HashMap or a Set for O(n) time
+and O(n) space, 2) Using sorting
+for O(n log n) time and O(1) space.
+Hello Intern
+Hitesh Motwani1:16 AM
+Dynamic Programming.
+Harshit Navneet1:22 AM
+25 988888 22 52222 2992
+Harshit Navneet1:24 AM
+52222 2992 22 25 9888888
+Hitesh Motwani1:26 AM
+If the problem is related to a
+LinkedList and we can't use extra
+space, then use the Fast & Slow
+Pointer approach.
+Group-1|GM| PRT

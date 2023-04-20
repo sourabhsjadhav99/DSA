@@ -1,0 +1,15 @@
+p {
+    color:red;
+}
+
+
+.run-time-output {
+    border: 1px dotted black;;
+    background-color: beige;
+    min-height: 200px;
+    max-width: 200px;
+}
+.serial-number {
+    font-weight: bolder;
+    color: blue;
+}

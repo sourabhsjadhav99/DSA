@@ -1,0 +1,10 @@
+What is hoisting ?
+how to center div ?
+what is state ?
+what is redux ?
+what is prop drilling ?
+what is jwt ?
+what is middleware ?
+explain some queries ?
+difference between Update and findByIdAndUpdate ?
+which technology are you more comfortable ?

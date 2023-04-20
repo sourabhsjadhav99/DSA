@@ -1,0 +1,17 @@
+1)Introduce Yourself ?
+Ans.-->My name is Sourabh Shivaji Jadhav. I am from Kowad which is in kolhapur district in maharashtra. I did my graduation from kit college of engineering kolhapur in mechanical engineering. Then i join 10Xacademy to learn front end and backend technologies.
+
+2)What technologies did you lesrnt from 10x academy ?
+Ans.-->In 10X they started with Javascript, then HTML and CSS, advance Javascript, then React, NodeJS, MongoDb, basics of python.
+
+3)Are you worked on linux and python?
+Ans.-->No, I didnt work on window
+
+4)How many project did you completed and what are your projects?
+Ans.-->I completed three projects. First i s Instaclone project, second is Real estate catalogue and third is to do list. In all projects i used MERN technologies.
+
+5)Are you ready to relocate ?
+Ans.-->Yes, I am ready to relocate anywhere in India
+
+salary expectations ?
+Ans.-->Currently I am searching forthis role and companies are offering 50K to 55K so i am expecting salary in this range. However I am open hearted to know you thoughts on same. 
