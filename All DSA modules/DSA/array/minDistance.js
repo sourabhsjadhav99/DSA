@@ -1,4 +1,4 @@
-var shortestToChar = function(s, c) {
+let shortestToChar = function(s, c) {
     let prev = s.indexOf(c);
     let next = prev;
     const distance = [];
@@ -12,4 +12,4 @@ var shortestToChar = function(s, c) {
     return distance;
 };
 let s = "loveleetcode", c = "e"
-console.log(shortestToChar(s,c))
+console.log(shortestToChar(s,c)) 

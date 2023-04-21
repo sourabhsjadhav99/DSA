@@ -4,26 +4,26 @@ function longestSubstring(s) {
     let charMap = new Map();
     let longestSubstr = "";
     
-    for (let end = 0; end < s.length; end++) {
-      let currentChar = s[end];
+    for (let index = 0; index < s.length; index++) {
+      let currentChar = s[index];
       
       if (charMap.has(currentChar) && charMap.get(currentChar) >= start) {
         start = charMap.get(currentChar) + 1;
       }
-      
-      charMap.set(currentChar, end);
-      let currentLength = end - start + 1;
+      charMap.set(currentChar, index);
+
+      let currentLength = index - start + 1;
       
       if (currentLength > maxLength) {
         maxLength = currentLength;
-        longestSubstr = s.substring(start, end + 1);
+        longestSubstr = s.substring(start, index + 1);
       }
     }
     
     return longestSubstr;
   }
   
-  let s = "abcabcbb";
+  let s = "abcdabcbdb";
   let longest = longestSubstring(s);
   
   console.log(longest);
