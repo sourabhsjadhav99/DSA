@@ -1,33 +1,39 @@
+const arr = [1, 2, 3, 4, 5];
+const targetSum = 7;
+const pairs = [];
 
-function findSumPairsAndCombinations(arr, target) {
-    const resultPairs = [];
-    const resultCombinations = [];
-    for (let i = 0; i < arr.length - 1; i++) {
-      for (let j = i + 1; j < arr.length; j++) {
-        if (arr[i] + arr[j] === target) {
-          resultPairs.push([arr[i], arr[j]]);
-        }
-      }
-    }
-    function findCombinations(index, currentCombination, currentSum) {
-      if (currentSum === target) {
-        resultCombinations.push(currentCombination);
-        return;
-      }
-      if (currentSum > target || index === arr.length) {
-        return;
-      }
-      findCombinations(index + 1, currentCombination.concat(arr[index]), currentSum + arr[index]);
-      findCombinations(index + 1, currentCombination, currentSum);
-    }
-    findCombinations(0, [], 0);
-    return [resultPairs, resultCombinations];
+// Find all pairs that add up to the target sum
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = i + 1; j < arr.length; j++) {
+//     if (arr[i] + arr[j] === targetSum) {
+//       pairs.push([arr[i], arr[j]]);
+//     }
+//   }
+// }
+// console.log(pairs);  
+
+
+// Find all combinations of numbers that add up to the target sum
+const combinations = [];
+
+function findCombinations(currIndex, currSum, currCombo) {
+  if (currSum === targetSum) {
+    combinations.push(currCombo);
+    return;
   }
-  
 
-  const arr = [2, 5, 8, 11, 3];
-  const target = 10;
-  const [sumPairs, sumCombinations] = findSumPairsAndCombinations(arr, target);
-  console.log(sumPairs); // Output: [[2, 8], [5, 5], [3, 7]]
-  console.log(sumCombinations); // Output: [[2, 8], [2, 5, 3], [5, 3, 2]]
-  
+  if (currIndex === arr.length || currSum > targetSum) {
+    return;
+  }
+
+  // Include the current number in the combination
+  findCombinations(currIndex + 1, currSum + arr[currIndex], [...currCombo, arr[currIndex]]);
+
+  // Exclude the current number from the combination
+  findCombinations(currIndex + 1, currSum, currCombo);
+}
+
+findCombinations(0, 0, []);
+
+ // Output: [[2, 5], [3, 4]]
+console.log(combinations); // Output: [[1, 2, 4], [1, 3, 3], [2, 3, 2], [4, 3]]

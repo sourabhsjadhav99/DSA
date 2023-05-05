@@ -19,6 +19,7 @@ function findTriplets(arr) {
     return triplets.reverse();
   }
   const arr = [1, 2, 3, 4, 5];
+
   const triplets = findTriplets(arr);
   console.log(triplets); // Output: [[2, 3, 5], [3, 4, 7]]
   
